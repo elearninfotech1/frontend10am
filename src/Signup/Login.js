@@ -9,7 +9,7 @@ const Login = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post(`http://localhost:4000/login`, {
+      .post(`https://backend10am.onrender.com/login`, {
         email,
         password,
       })

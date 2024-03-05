@@ -13,7 +13,7 @@ const Signup = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post(`http://localhost:4000/signup`, {
+      .post(`https://backend10am.onrender.com/signup`, {
         name,
         email,
         password,

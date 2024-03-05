@@ -5,7 +5,7 @@ const EmployeeData = () => {
   const [student, setStudent] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/employee`)
+      .get(`https://backend10am.onrender.com/employee`)
       .then((res) => {
         setStudent(res.data);
       })
