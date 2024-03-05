@@ -1,0 +1,14 @@
+.breadcrumb {
+    background-color: aquamarine;
+    padding: 30px 0px;
+}
+
+.breadcrumb h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form {
+    background-color: rgb(223, 245, 238);
+    padding: 35px 20px;
+}
